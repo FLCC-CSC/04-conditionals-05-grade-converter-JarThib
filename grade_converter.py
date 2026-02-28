@@ -16,7 +16,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    print("...")
+    #print("...")
     print("===== Grade Converter =====")
     number_grade = int(input("Enter a numerical grade (1-100): "))
 
@@ -32,7 +32,7 @@ def main():
             print("D")
     elif number_grade <= 64:
             print("F") 
-    print("...")
+    #print("...")
    
 main()
 
