@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Jared Thibado
+# DATE: 02/27/2026
+# BRIEF DESCRIPTION:  code that coververts number grades to letter grades
 
 
 
@@ -15,22 +15,32 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+def main():
+    #print("...")
+    print("===== Grade Converter =====")
+    number_grade = int(input("Enter a numerical grade (1-100): "))
 
-percent = int(input('Enter a numerical grade (1-100): '))
+    if   number_grade > 100:
+            print("A+")
+    elif number_grade >= 90 and number_grade <= 100:
+            print("A")
+    elif number_grade >= 80 and number_grade <= 89:
+            print("B")
+    elif number_grade >= 70 and number_grade <= 79:
+            print("C")
+    elif number_grade >= 65 and number_grade < 70:
+            print("D")
+    elif number_grade <= 64:
+            print("F") 
+    #print("...")
+   
+main()
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+
+
+
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -84,8 +94,8 @@ D
 
 1. What is something you would tell a future student to be careful about when
    doing this lab?
-
-
+Always check your less than and greater than signs to make sure they are correct. Just spent like 5 minutes trying to figure out why every 
+grade was an A+. A simple mistake that is easy to miss when fixing your code.
 
 
 
